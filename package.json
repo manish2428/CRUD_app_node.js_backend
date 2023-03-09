@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Create a Node.js CRUD app with functionalities of Add/Update/Delete/Get items from any one of the databases (MongoDB, MySQL, PostgreSQL etc.).\r Implement the endpoints with proper API documentation (e.g. Swagger).\r Implement Test cases for the components in your project (API, Services) using any testing frameworks (Jest, Mocha, Chai etc.).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manish2428/CRUD_app_node.js_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manish2428/CRUD_app_node.js_backend/issues"
+  },
+  "homepage": "https://github.com/manish2428/CRUD_app_node.js_backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21"
+  }
+}
