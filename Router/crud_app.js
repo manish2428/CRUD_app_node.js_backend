@@ -7,7 +7,7 @@ let error = "Error occured while performing a operation";
 
 //get api which fetches all the title and description present in the database
 router.get("/", (req, res) => {
-  console.log("inside get api");
+  // console.log("inside get api");
 
   let data = Data.find()
     .then((data) => {
